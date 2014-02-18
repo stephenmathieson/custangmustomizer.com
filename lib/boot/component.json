@@ -1,0 +1,13 @@
+{
+  "name": "boot",
+  "main": "index.js",
+  "scripts": ["index.js"],
+  "styles": ["boot.css"],
+  "dependencies": {
+    "stephenmathieson/konami-code": "*",
+    "esundahl/pulse": "*",
+    "component/classes": "*",
+    "necolas/normalize.css": "*",
+    "ecarter/css-emitter": "*"
+  }
+}
