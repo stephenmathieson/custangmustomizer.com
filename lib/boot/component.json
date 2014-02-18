@@ -9,5 +9,6 @@
     "component/classes": "*",
     "necolas/normalize.css": "*",
     "ecarter/css-emitter": "*"
-  }
+  },
+  "local": ["vrooooom"]
 }
