@@ -10,8 +10,8 @@ INSTALL_FLAGS ?=
 all: node_modules index.html build
 
 minify: all
-	@$(BINS)/uglifyjs build/build.js -o build/build.js
-	@$(BINS)/cleancss build/build.css -o build/build.css
+	@$(BINS)/uglifyjs build/build.js -o build/build.js -mc
+	@$(BINS)/cleancss build/build.css -o build/build.css --s0
 
 build: node_modules
 build: components
