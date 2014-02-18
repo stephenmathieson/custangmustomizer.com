@@ -2,5 +2,5 @@
   "name": "custangmustomizer.com",
   "version": "0.0.0",
   "paths": ["lib"],
-  "local": ["boot"]
+  "local": ["boot", "ga"]
 }

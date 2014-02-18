@@ -4,7 +4,7 @@ JS = $(wildcard lib/*/*.js)
 CSS = $(wildcard lib/*/*.css)
 META = component.json $(wildcard lib/*/component.json)
 
-BUILD_FLAGS ?= --use component-autoboot
+BUILD_FLAGS ?= --use plugin
 INSTALL_FLAGS ?=
 
 all: node_modules index.html build
