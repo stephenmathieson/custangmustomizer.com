@@ -1,11 +1,12 @@
 {
   "name": "custangmustomizer.com",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "dependencies": {
     "jade": "~1.1.5",
     "component-autoboot": "~0.1.0",
     "component": "~0.19.5",
     "uglify-js": "~2.4.12",
     "clean-css": "~2.1.0"
-  }
+  },
+  "private": true
 }
