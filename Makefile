@@ -10,8 +10,8 @@ INSTALL_FLAGS ?=
 all: node_modules index.html build
 
 minify: all
-	$(BINS)/minify build/build.js build/build.js
-	$(BINS)/minify build/build.css build/build.css
+	@$(BINS)/uglifyjs build/build.js -o build/build.js
+	@$(BINS)/cleancss build/build.css -o build/build.css
 
 build: node_modules
 build: components
